@@ -46,9 +46,9 @@ public class AirTicket
     void cancellation()
     {
         if(dateOfBooking.compareTo(dateOfTravel)==0)
-          System.out.println("Amount paid: "+price+"\nAmount Refunded: "+(price - 0.02*price));
+          System.out.println("Amount paid: "+price+"\nAmount Refunded: "+(price - 0.1*price));
         else
-          System.out.println("Amount paid: "+price+"\nAmount Refunded: "+(price - 0.09*price));
+          System.out.println("Amount paid: "+price+"\nAmount Refunded: "+(price - 0.01*price));
     }
 
     void dispDetails()
